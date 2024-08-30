@@ -12,7 +12,7 @@
 ARG tag=latest
 
 # Base image, e.g. tensorflow/tensorflow:2.9.1
-FROM ai4oshub/https://hub.docker.com/u/ai4oshub:${tag}
+FROM ai4oshub/ai4os-yolov8-torch:${tag}
 
 LABEL maintainer='Damian Smyth, Eva Cullen, Eabha Melvin'
 LABEL version='0.0.1'
