@@ -1,17 +1,17 @@
 metadata_version: 2.0.0
-title: smartbay-marine-species-detection
-summary: "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory."
+title: smartbay-species-detection
+summary: "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory."
 description: |-
-  smartbay_marine_species_detection is an application using the DEEPaaS API.
-  AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory.
+  smartbay_species_detection is an application using the DEEPaaS API.
+  AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.
 # doi: http://add-some-DOI-url.com
 dates:
-  created: 2024-08-27
-  updated: 2024-08-27
+  created: 2024-08-30
+  updated: 2024-08-30
 links:
   ai4_template: ai4-template-child/2.1.1
-  source_code: https://github.com/ai4os-hub/smartbay-marine-species-detection
-  docker_image: ai4oshub/smartbay-marine-species-detection
+  source_code: https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection
+  docker_image: ai4oshub/smartbay-species-detection
   # documentation: http://add-some-documentation.com
   # dataset: http://add-some-url-pointing-to-your-dataset.com
   # weights: http://add-some-weights-url.com

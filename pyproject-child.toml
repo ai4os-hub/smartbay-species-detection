@@ -38,7 +38,7 @@ addopts = "--import-mode=importlib"
 packages = ["yolov8_api", "smartbay_species_detection.api"]
 
 [tool.setuptools.package-dir]
-"obsea_fish_detection.api" = "api"
+"smartbay_species_detection.api" = "api"
 "yolov8_api" = "yolov8_api"
 
 [tool.setuptools.dynamic]

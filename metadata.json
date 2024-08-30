@@ -1,25 +1,25 @@
 {
-    "title": "smartbay-marine-species-detection",
-    "summary": "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory.",
+    "title": "smartbay-species-detection",
+    "summary": "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.",
     "description": [
-        "smartbay-marine-species-detection is an application using the DEEPaaS API.\n",
-        "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory."
+        "smartbay-species-detection is an application using the DEEPaaS API.\n",
+        "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory."
     ],
     "keywords": [
         "docker",
         "api-v2"
     ],
     "license": "MIT",
-    "date_creation": "2024-08-27",
+    "date_creation": "2024-08-30",
     "sources": {
-        "dockerfile_repo": "https://github.com/ai4os-hub/smartbay-marine-species-detection",
-        "docker_registry_repo": "ai4oshub/smartbay-marine-species-detection",
-        "code": "https://github.com/ai4os-hub/smartbay-marine-species-detection",
+        "dockerfile_repo": "https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection",
+        "docker_registry_repo": "ai4oshub/smartbay-species-detection",
+        "code": "https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection",
         "ai4_template": "ai4-template-child/2.1.1"
 	},
     "continuous_integration": {
-        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/smartbay-marine-species-detection/main",
-        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/smartbay-marine-species-detection/job/main/"
+        "build_status_badge": "https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/smartbay-species-detection/main",
+        "build_status_url": "https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/smartbay-species-detection/job/main/"
     },
     "tosca": [
         {

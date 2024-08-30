@@ -16,14 +16,13 @@ FROM ai4oshub/ai4os-yolov8-torch:${tag}
 
 LABEL maintainer='Damian Smyth, Eva Cullen, Eabha Melvin'
 LABEL version='0.0.1'
-# AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory.
+# AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.
 
 # Download new model weights and remove old ones
 # You can use the following as "reference" - https://github.com/ai4os-hub/ai4os-image-classification-tf/blob/master/Dockerfile
 ###############
 ### FILL ME ###
 ###############
-# Define default YoloV8 models
 ENV YOLOV8_DEFAULT_WEIGHTS="yolov8_smartbay_fish_small"
 ENV YOLOV8_DEFAULT_TASK_TYPE="det"
 

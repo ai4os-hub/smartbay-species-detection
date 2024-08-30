@@ -1,9 +1,9 @@
-# smartbay-marine-species-detection
-[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/smartbay-marine-species-detection/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/smartbay-marine-species-detection/job/main/)
+# smartbay-species-detection
+[![Build Status](https://jenkins.services.ai4os.eu/buildStatus/icon?job=AI4OS-hub/smartbay-species-detection/main)](https://jenkins.services.ai4os.eu/job/AI4OS-hub/job/smartbay-species-detection/job/main/)
 
-AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine speceii at the Smartbay underwater observatory.
+AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.
 
-This is a container that will run the smartbay-marine-species-detection application leveraging the DEEP as a Service API component ([DEEPaaS API](https://github.com/ai4os/DEEPaaS)). The application is based on **ai4oshub/https://hub.docker.com/u/ai4oshub** module.
+This is a container that will run the smartbay-species-detection application leveraging the DEEP as a Service API component ([DEEPaaS API](https://github.com/ai4os/DEEPaaS)). The application is based on **ai4oshub/ai4os-yolov8-torch** module.
 
     
 ## Running the container
@@ -13,7 +13,7 @@ This is a container that will run the smartbay-marine-species-detection applicat
 To run the Docker container directly from Docker Hub and start using the API, simply run the following command:
 
 ```bash
-$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/smartbay-marine-species-detection
+$ docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/smartbay-species-detection
 ```
 
 This command will pull the Docker container from the Docker Hub [ai4oshub](https://hub.docker.com/u/ai4oshub/) repository and start the default command (`deepaas-run --listen-ip=0.0.0.0`).
@@ -24,10 +24,10 @@ This command will pull the Docker container from the Docker Hub [ai4oshub](https
 
 If you want to build the container directly in your machine (because you want to modify the `Dockerfile` for instance) follow the following instructions:
 ```bash
-git clone https://github.com/ai4os-hub/smartbay-marine-species-detection
-cd smartbay-marine-species-detection
-docker build -t ai4oshub/smartbay-marine-species-detection .
-docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/smartbay-marine-species-detection
+git clone https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection
+cd smartbay-species-detection
+docker build -t ai4oshub/smartbay-species-detection .
+docker run -ti -p 5000:5000 -p 6006:6006 -p 8888:8888 ai4oshub/smartbay-species-detection
 ```
 
 These three steps will download the repository from GitHub and will build the Docker container locally on your machine. You can inspect and modify the `Dockerfile` in order to check what is going on. For instance, you can pass the `--debug=True` flag to the `deepaas-run` command, in order to enable the debug mode.
