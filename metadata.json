@@ -7,9 +7,7 @@
     ],
     "keywords": [
         "docker",
-        "api-v2",
-	"yolov8",
-        "vo.imagine-ai.eu"
+        "api-v2"
     ],
     "license": "MIT",
     "date_creation": "2024-08-30",
