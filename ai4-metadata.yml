@@ -6,8 +6,8 @@ description: |-
   AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.
 # doi: http://add-some-DOI-url.com
 dates:
-  created: 2024-08-30
-  updated: 2024-09-20
+  created: "2024-08-30"
+  updated: "2024-08-30"
 links:
   ai4_template: ai4-template-child/2.1.1
   source_code: https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection
