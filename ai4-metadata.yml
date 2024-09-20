@@ -7,7 +7,7 @@ description: |-
 # doi: http://add-some-DOI-url.com
 dates:
   created: 2024-08-30
-  updated: 2024-08-30
+  updated: 2024-09-20
 links:
   ai4_template: ai4-template-child/2.1.1
   source_code: https://github.com/ai4os-hub/smartbay-species-detection/smartbay-species-detection
@@ -18,9 +18,11 @@ links:
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
 #tags:        # required property, add user-defined tags that you consider relevant
-  # - deep learning
+   - deep learning
+   - vo.imagine-ai.eu
+   - fish detection
 #tasks:       # required property, uncomment together with relevant items
-  # - Computer Vision
+   - Computer Vision
   # - Natural Language Processing
   # - Time Series
   # - Recommender Systems
@@ -36,27 +38,28 @@ links:
   # - Transfer Learning
   # - Uncertainty Estimation
   # - Other
+   - Object Detection
 #categories:  # required property, uncomment together with relevant items
   # - AI4 trainable
   # - AI4 pre trained
-  # - AI4 inference
+   - AI4 inference
   # - AI4 tools
 #libraries:   # required property, uncomment together with relevant items
   # - TensorFlow
-  # - PyTorch
+   - PyTorch
   # - Keras
   # - Scikit-learn
   # - XGBoost
   # - LightGBM
   # - CatBoost
   # - Other
+   - ultralytics
 #data-type:   # optional, uncomment together with relevant items
-  # - Image
+   - Image
   # - Text
   # - Time Series
   # - Tabular
   # - Graph
   # - Audio
-  # - Video
+   - Video
   # - Other
-  
