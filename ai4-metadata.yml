@@ -37,8 +37,8 @@ tasks:       # required property, uncomment together with relevant items
   # - Reinforcement Learning
   # - Transfer Learning
   # - Uncertainty Estimation
-  # - Other
-   - Object Detection
+   - Other
+  # - Object Detection
 categories:  # required property, uncomment together with relevant items
   # - AI4 trainable
   # - AI4 pre trained
