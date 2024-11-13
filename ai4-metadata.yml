@@ -2,8 +2,22 @@ metadata_version: 2.0.0
 title: smartbay-species-detection
 summary: "AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory."
 description: |-
-  smartbay_species_detection is an application using the DEEPaaS API.
-  AI-based Marine Species detection and classification algorithm based on YOLOv8. The model has been tuned to detect and classify marine species at the Smartbay underwater observatory.
+  AI-based Marine Species detection and classification algorithm based on YOLOv8. 
+  
+  The SmartBay Observatory is a marine observatory installed on the seafloor 1.5km off the coast of Spiddal, County Galway, Ireland. The observatory uses cameras, probes and sensors to permit continuous and remote live underwater monitoring. This observatory equipment allows ocean researchers unique real-time access to monitor ongoing changes in the marine environment. Data relating to the marine environment at the site is transferred in real-time from the SmartBay Observatory through a fibre optic telecommunications cable to the Marine Institute headquarters and onwards onto the internet. The data includes a live video stream, the depth of the observatory node, the sea temperature and salinity, and estimates of the chlorophyll and turbidity levels in the water which give an indication of the volume of phytoplankton and other particles, such as sediment, in the water.
+  
+  The Smartbay Marine Types Object Detection training Dataset is an initial Bounding Box Annotated image dataset used in attempting to Train a YOLOv8 Object Detection Model to classify the Marine Fauna observed in the Smartbay Observatory Video footage using broad "Marine Type" classes.
+  
+  The imagery used to train the models in this module consists of image frame captures from the [Smartbay](https://smartbay.marine.ie/) video Archive files, CC-BY imagery from the www.minka-sdg.org website and images taken by Eva Cullen in the ["Galway Atlantaquaria"](https://nationalaquarium.ie/) Aquarium in Galway, Ireland.
+
+  The module will eventually contain a generic marine animal object detection model and a marine species object detection model using the 
+
+  [Smartbay Marine Types Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989527)
+  and 
+  [Smartbay Marine Species Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989650) Datasets
+
+  <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/smartbay-species-detection/main/species_det_smaller.png'/>
+  
 # doi: http://add-some-DOI-url.com
 dates:
   created: "2024-08-30"
@@ -13,7 +27,7 @@ links:
   source_code: https://github.com/ai4os-hub/smartbay-species-detection
   docker_image: ai4oshub/smartbay-species-detection
   # documentation: http://add-some-documentation.com
-  # dataset: http://add-some-url-pointing-to-your-dataset.com
+  dataset: https://zenodo.org/records/13989527
   # weights: http://add-some-weights-url.com
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
