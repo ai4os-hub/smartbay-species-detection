@@ -20,8 +20,6 @@ dynamic = ["version", "dependencies"]
 authors = [
   {name= "Fahimeh Alibabaei", email= "khadijeh.alibabaei@kit.edu"},
   {name= "Lisana Berberi", email= "lisana.berberi@kit.edu"},
-  {name = "Oriol Prat Bayarri", email = "oriol.prat.bayarri@upc.edu"},
-  {name = "Pol Banos Castello", email = "pol.banos.castello@upc.edu"},
   {name = "Damian Smyth", email = "datarequests@marine.ie"},
 ]
 

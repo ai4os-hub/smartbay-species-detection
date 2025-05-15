@@ -23,7 +23,7 @@ LABEL version='0.0.1'
 ###############
 ### FILL ME ###
 ###############
-ENV YOLOV8_DEFAULT_WEIGHTS="yolov8_smartbay_fish_small"
+ENV YOLOV8_DEFAULT_WEIGHTS="yolov8_smartbay_species_small"
 ENV YOLOV8_DEFAULT_TASK_TYPE="det"
 
 # Uninstall existing module ("yolov8_api")
@@ -37,6 +37,6 @@ ENV MODEL_NAME="smartbay_species_detection"
 COPY ./pyproject-child.toml /srv/ai4os-yolov8-torch/pyproject.toml
 RUN cd /srv/ai4os-yolov8-torch && pip install --no-cache -e .
 
-RUN mkdir -p /srv/ai4os-yolov8-torch/models/yolov8_smartbay_fish_small/weights && \
-    curl -L https://share.services.ai4os.eu/index.php/s/7zXYDLPcYA5tGwx/download/smartbay-species-marine-fish-marine-types-t3-3-yolo8s_01.pt \
-    --output /srv/ai4os-yolov8-torch/models/yolov8_smartbay_fish_small/weights/best.pt
+RUN mkdir -p /srv/ai4os-yolov8-torch/models/yolov8_smartbay_species_small/weights && \
+    curl -L https://zenodo.org/records/15390169/files/smartbay-species-model-yolo8s.pt \
+    --output /srv/ai4os-yolov8-torch/models/yolov8_smartbay_species_small/weights/best.pt

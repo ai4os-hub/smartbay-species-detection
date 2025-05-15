@@ -10,11 +10,9 @@ description: |-
   
   The imagery used to train the models in this module consists of image frame captures from the [Smartbay](https://smartbay.marine.ie/) video Archive files, CC-BY imagery from the www.minka-sdg.org website and images taken by Eva Cullen in the ["Galway Atlantaquaria"](https://nationalaquarium.ie/) Aquarium in Galway, Ireland.
 
-  The module will eventually contain a generic marine animal object detection model and a marine species object detection model using the 
+  The module will eventually contain a marine species object detection model using the
 
-  [Smartbay Marine Types Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989527)
-  and 
-  [Smartbay Marine Species Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989650) Datasets
+  [Smartbay Marine Species Object Detection Training dataset](https://doi.org/10.5281/zenodo.13989650) Dataset
 
   <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/smartbay-species-detection/main/species_det_smaller.png'/>
   
@@ -27,8 +25,8 @@ links:
   source_code: https://github.com/ai4os-hub/smartbay-species-detection
   docker_image: ai4oshub/smartbay-species-detection
   # documentation: http://add-some-documentation.com
-  dataset: https://zenodo.org/records/13989527
-  # weights: http://add-some-weights-url.com
+  dataset: https://zenodo.org/records/13989650
+  weights: https://zenodo.org/records/15390169
   # citation: http://add-some-DOI-url.com
   # base_model: http://add-some-link-to-another-model.com
 tags:        # required property, add user-defined tags that you consider relevant
