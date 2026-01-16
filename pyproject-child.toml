@@ -33,11 +33,11 @@ env = ["DATA_PATH=tests/data", "MODELS_PATH=tests/models"]
 addopts = "--import-mode=importlib"
 
 [tool.setuptools]
-packages = ["yolov8_api", "smartbay_species_detection.api"]
+packages = ["ai4os_yolo", "smartbay_species_detection.api"]
 
 [tool.setuptools.package-dir]
 "smartbay_species_detection.api" = "api"
-"yolov8_api" = "yolov8_api"
+"ai4os_yolo" = "ai4os_yolo"
 
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.txt"] }
